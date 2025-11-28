@@ -38,7 +38,7 @@ import math
 
 def calculate_angle(angle):
     # Write here your code
-    radians = math.radians(angle)
+    radians = math.radians(angle) # dudas, mirar más a fondo conversiones!"
     sin = math.sin(radians)
     return round(sin, 2)
 
